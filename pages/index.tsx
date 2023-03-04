@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import style from './index.module.scss';
 
 const Index = () => {
   return (
     <>
-      <p>Hello!</p><
+      <p className={style.text}>Hello !</p>
     </>
   );
 };
