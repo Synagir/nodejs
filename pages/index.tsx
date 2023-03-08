@@ -4,7 +4,7 @@ import style from './index.module.scss';
 const Index = () => {
   return (
     <>
-      <p className={style.text}>Hello World! jahajaha~~!</p>
+      <p className={style.text}>Hello World! nehaneha!</p>
     </>
   );
 };
