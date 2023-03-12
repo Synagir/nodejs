@@ -1,5 +1,5 @@
 const debug = process.env.NODE_ENV !== 'production';
-const repository = 'nodejs';
+const repository = 'https://synagir.github.io/nodejs';
 
 const nextConfig = {
   reactStrictMode: true,
