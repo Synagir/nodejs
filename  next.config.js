@@ -1,3 +1,6 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 module.exports = {
-  basePath: '/pages',
+  // Use the CDN in production and localhost for development.
+  assetPrefix: isProd ? 'https://synagir.github.io/nodejs' : undefined,
 };
